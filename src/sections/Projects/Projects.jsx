@@ -1,9 +1,8 @@
 import styles from "./ProjectsStyles.module.css";
 import viberr from "../../assets/viberr.png";
 import ProjectCard from "../../common/ProjectCard";
-import Hipsterr from "../../assets/hipsster.png";
-
-import freshBurger from "../../assets/fresh-burger.png";
+import ankitsHope from "../../assets/Ankit-s-hope.png";
+import framefinder from "../../assets/frame-finder.jpg";
 function Projects() {
   return (
     <section id="projects" className={styles.container}>
@@ -17,14 +16,14 @@ function Projects() {
         />
 
         <ProjectCard
-          src={freshBurger}
+          src={framefinder}
           link={"https://photography-app-5osi.vercel.app/about"}
           title="FrameFinder"
           description="Photography application"
         />
 
         <ProjectCard
-          src={Hipsterr}
+          src={ankitsHope}
           link={"https://www.ankitfoundationcorp.org/app"}
           title="Ankit's Hope"
           description="Mental Health Application"

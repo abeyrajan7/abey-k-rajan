@@ -13,6 +13,7 @@ function ProjectCard({ src, link, title, description }) {
       transform: "scale(1.05)",
     },
     image: {
+      maxHeight: "130px",
       maxWidth: "250px",
       borderRadius: "20px",
       backgroundColor: "var(--project-card-bg)",
