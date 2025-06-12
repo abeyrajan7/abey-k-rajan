@@ -17,7 +17,7 @@ function Projects() {
 
         <ProjectCard
           src={framefinder}
-          link={"https://photography-app-5osi.vercel.app/about"}
+          link={"https://photography-app-5osi.vercel.app/"}
           title="FrameFinder"
           description="Photography application"
         />
