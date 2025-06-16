@@ -38,14 +38,14 @@ function Hero() {
         </h1>
         <h2>Full Stack Developer</h2>
         <span>
-          <a href="https://Instagram.com" target="blank">
-            <img src={instagramIcon} alt="instagramIcon" />
-          </a>
           <a href="https://github.com/abeyrajan7" target="blank">
             <img src={githubIcon} alt="githubIcom" />
           </a>
           <a href="https://www.linkedin.com/in/abey-k-rajan/" target="blank">
             <img src={linkedinIcon} alt="linkedinIcom" />
+          </a>
+          <a href="https://Instagram.com" target="blank">
+            <img src={instagramIcon} alt="instagramIcon" />
           </a>
         </span>
         <p className={styles.description}>
