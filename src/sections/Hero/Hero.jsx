@@ -44,8 +44,8 @@ function Hero() {
           <a href="https://github.com/abeyrajan7" target="blank">
             <img src={githubIcon} alt="githubIcom" />
           </a>
-          <a href="https://www.instagram.com/_abeyyy___/" target="blank">
-            <img src={linkedinIcon} alt="instagramIcom" />
+          <a href="https://www.linkedin.com/in/abey-k-rajan/" target="blank">
+            <img src={linkedinIcon} alt="linkedinIcom" />
           </a>
         </span>
         <p className={styles.description}>
