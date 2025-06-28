@@ -1,6 +1,6 @@
 import React from "react";
 
-function ProjectCard({ src, link, title, description }) {
+function ProjectCard({ src, link, title, description, tech }) {
   const styles = {
     link: {
       width: "fit-content",
@@ -20,6 +20,10 @@ function ProjectCard({ src, link, title, description }) {
       display: "block",
       margin: "0 auto",
     },
+    techText: {
+      color: "grey",
+      fontSize: "small",
+    },
   };
   return (
     <div>
@@ -34,6 +38,7 @@ function ProjectCard({ src, link, title, description }) {
         <img className="hover" src={src} alt="logo" />
         <h3>{title}</h3>
         <p>{description}</p>
+        <p style={styles.techText}>{tech}</p>
       </a>
     </div>
   );
